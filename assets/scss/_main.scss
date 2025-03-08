@@ -33,6 +33,12 @@ body {
   background-color: $light-background;
   color: $light-color;
 
+  // Background Image for Landing Page
+  // background-image: url(img/bg1-uncompressed.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  backdrop-filter: blur(10px);
+    
   @media #{$media-size-phone} {
     font-size: 1rem;
   }
